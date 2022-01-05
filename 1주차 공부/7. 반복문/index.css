@@ -1,0 +1,27 @@
+.movie {
+  display: flex;
+  align-items: center;
+  border : 2px solid gray;
+  margin-top : 10px;
+  border-radius: 5px;
+}
+
+.movie, .movie-title {
+  flex-grow : 2;
+}
+
+.movie-title{
+  padding : 5px;
+
+}
+
+.movie-year{
+  padding : 5px;
+  margin: 5px;
+  flex-grow : 1;
+  
+  text-align: end;
+  border : 2px solid gray;
+  font-size: 0.5rem;
+  color:red;
+}
