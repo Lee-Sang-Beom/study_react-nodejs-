@@ -1,21 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
+import useFetch from '../hook/useFetch';
 import Word from "./Word";
 
 export default function Day() {
 
     const {day} = useParams();
-    const [words, setWords] = useState([]);
-
-    useEffect(()=>{
-        fetch(`http://localhost:3001/words?day=${day}`)
-        .then((res) => {
-            return res.json(); // res는 실제 json형이 아니라, json으로 변환되고 promise반환
-        })
-        .then((data) => setWords(data));
-    },[day])
-    
+    const words = useFetch(`http://localhost:3001/words?day=${day}`);
 
     return (
         <>

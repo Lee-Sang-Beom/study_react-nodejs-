@@ -41,13 +41,14 @@ a {
 }
 
 .header .link {
-  border: 5px solid #333;
+  border: 5px solid rgb(95, 17, 221);
   padding: 10px;
   margin-left: 10px;
   background-color: #efefef;
   font-weight: bold;
   border-radius: 10px;
 }
+
 
 .list_day {
   display: flex;
@@ -60,14 +61,14 @@ a {
   padding: 10px;
 }
 
-.list_day a {
+.list_day a{
   display: block;
   padding: 20px 0;
   font-weight: bold;
   color: #fff;
   text-align: center;
   border-radius: 10px;
-  background-color: rgb(34, 30, 255);
+  background-color: rgb(52, 140, 255);
 }
 
 table {
