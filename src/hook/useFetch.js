@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 export default function useFetch(url){
     const [data, setData] = useState([]);
+    
+    
 
     useEffect(()=>{
         fetch(url) // ? day는 동적으로 저 day = {}값에 따라 주소를 fetch해오겠다는 뜻

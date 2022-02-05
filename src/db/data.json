@@ -70,6 +70,20 @@
       "day": "5",
       "isDone": false,
       "id": 15
+    },
+    {
+      "eng": "hello",
+      "kor": "안녕",
+      "day": "1",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "eng": "kick",
+      "kor": "차다",
+      "day": "2",
+      "isDone": false,
+      "id": 17
     }
   ]
 }
